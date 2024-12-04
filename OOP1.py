@@ -3,6 +3,7 @@ class Warrior:
     Name = None
     Health = 100
     def set_name(self):
+        print("Введите имя героя")
         self.Name = input()
     def start_the_battle(self):
         while Player_1.Health > 0 and Player_2.Health > 0:
